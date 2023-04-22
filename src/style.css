@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    page-break-after: always;
+}
+
+.grid > div {
+    border: 1px solid lightgray;
+    padding: 20px;
+    height: 120px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    margin: 0;
+}
